@@ -1,0 +1,34 @@
+// Main Sass File
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+//Section Styles
+
+#main-heading{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+
+nav{
+  padding-top: 15px;
+  text-align: center;
+
+}
+nav li{
+  display: inline-block;
+}
+header{
+  a{
+    color:black;
+    padding-right: 50px;
+    font-family: 'Playfair Display', serif;
+
+  }
+}
+
+//Slider
+.carousel-item{
+  height: 300px;
+}
