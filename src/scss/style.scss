@@ -1,14 +1,36 @@
 // Main Sass File
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+//Colors
+
+$maindark: #002157;
+$secondDark: #456800;
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i');
+
+
+
+//Global Styles
+h1, h2, h3, h4, h5, p{
+  font-family: 'Playfair Display SC', serif;
+
+}
+
+.btn-success{
+  background-color: $secondDark;
+  border: none;
+}
+
 
 //Section Styles
 
 #main-heading{
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
   text-align: center;
   padding-top: 20px;
+  color: $maindark;
 }
 
 nav{
@@ -26,9 +48,26 @@ header{
     font-family: 'Playfair Display', serif;
 
   }
+  p{
+    text-align: center;
+  }
 }
 
 //Slider
 .carousel-item{
-  height: 300px;
+  height: 450px;
+}
+
+//Footer//
+footer{
+  background-color: $maindark;
+  color:white;
+  margin-top: 30px;
+  min-height: 200px;
+  h5{
+    font-family: 'Playfair Display', serif;
+    padding-top: 15px;
+
+  }
+
 }
